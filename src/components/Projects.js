@@ -3,7 +3,6 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1_1 from "../assets/img/project/project1-1.png";
 import projImg1_2 from "../assets/img/project/project1-2.png";
 import projImg1_3 from "../assets/img/project/project1-3.png";
-
 import projImg2_1 from "../assets/img/project/project2-1.png";
 import projImg2_2 from "../assets/img/project/project2-2.png";
 import projImg2_3 from "../assets/img/project/project2-3.png";
@@ -18,19 +17,19 @@ export const Projects = () => {
   const projectsFirst = [
     {
       title: "Fun市集",
-      description: ".Net5| LinQ | StoredProcedure | Redis | JavaScript | Jquery | Vue.js | Rxjs ",
+      description: ".Net5 | StoredProcedure | Redis | JavaScript | Jquery | Vue.js | Rxjs",
       imgUrl: projImg1_1,
       url: "https://funmart.beanfun.com/"
     },
     {
       title: "電商平台",
-      description: ".Net Core 3 | Dapper | Blazor | Razer | JavaScript | Jquery |",
+      description: ".Net Core 3 | Dapper | Blazor | Razer | JavaScript | Jquery",
       imgUrl: projImg1_2,
       url: "https://eight-days.com.tw/Public/Index"
     },
     {
       title: "形象網站",
-      description: ".Net Core 2.2 | Dapper | JavaScript | Jquery | Kendo UI | TinyMce | ContentBuilder",
+      description: ".Net Core 2.2 | JavaScript | Jquery | Kendo UI | TinyMce | ContentBuilder",
       imgUrl: projImg1_3,
       url: "https://eod.com.tw/"
     }
@@ -39,32 +38,32 @@ export const Projects = () => {
   const projectsSecond = [
     {
       title: "客製形象網站後台",
-      description: ".Net Core 2.2 | Dapper | JavaScript | Jquery | Kendo UI | TinyMce | ContentBuilder",
+      description: ".Net Core 2.2 | JavaScript | Jquery | Kendo UI | TinyMce | ContentBuilder",
       imgUrl: projImg2_1,
       url: ""
     },
     {
       title: "ERP客製化系統",
-      description: ".Net Core 2 | Dapper | Razer | JavaScript | Jquery |",
+      description: ".Net Core 2 | Dapper | Razer | JavaScript | Jquery",
       imgUrl: projImg2_2,
       url: ""
     },
     {
       title: "客製化課程系統",
-      description: ".Net Core 2.2 | Dapper | JavaScript | Jquery | Kendo UI | TinyMce | ContentBuilder",
+      description: ".Net Core 2.2 | Dapper | JavaScript | Jquery | Kendo UI",
       imgUrl: projImg2_3,
     }
   ];
   const projectsThird = [
     {
       title: "訂單匯入小工具",
-      description: ".Net Core 2.2 | Dapper | JavaScript | Jquery | Kendo UI ",
+      description: ".Net Core 2.2 | Dapper | JavaScript | Jquery | Kendo UI",
       imgUrl: projImg3_1,
       url: ""
     },
     {
       title: "檔案整理小工具",
-      description: "Electron | Node.js | JavaScript |",
+      description: "Electron | Node.js | JavaScript",
       imgUrl: projImg3_2,
       url: ""
     },
@@ -75,7 +74,7 @@ export const Projects = () => {
     }
   ];
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col size={12}>

@@ -297,6 +297,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     }
 }
 .txt-rotate > .wrap {
+  font-size: 33px;
   border-right: 0.08em solid #666;
 }
 
@@ -415,7 +416,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 0 55px 55px 0;
 }
 .proj-imgbx {
-
   position: relative;
   border-radius: 30px;
   overflow: hidden;
@@ -446,6 +446,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
   opacity: 1;
+}
+.proj-button{
+  position: block;
+  margin-top: 10px;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid #fff; 
+  border-radius: 4px;
+  padding: 10px 10px;
+  color: #fff;
+  font-size: 11px;
+
+}
+.proj-button:hover {
+  background: linear-gradient(90.21deg, #2cc3d4 -5.91%, #3d07ed 111.58%);
+  opacity: 0.85;
+  transition: 0.4s ease-in-out;
 }
 .proj-txtx h4 {
   font-size: 30px;
@@ -486,3 +503,4 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
