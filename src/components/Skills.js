@@ -1,6 +1,7 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import meter1 from "../assets/img/meter1.png";
+import meter2 from "../assets/img/meter2.png";
+import meter3 from "../assets/img/meter3.png";
+import meter4 from "../assets/img/meter4.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
@@ -46,6 +47,10 @@ export const Skills = () => {
                   <h5>Javascirpt</h5>
                 </div>
                 <div className="item">
+                  <img src={meter4} alt="50%" />
+                  <h5>React</h5>
+                </div>
+                <div className="item">
                   <img src={meter1} alt="95%" />
                   <h5>.NET</h5>
                 </div>
@@ -53,6 +58,7 @@ export const Skills = () => {
                   <img src={meter2} alt="80%" />
                   <h5>MSSQL</h5>
                 </div>
+
 
               </Carousel>
             </div>
